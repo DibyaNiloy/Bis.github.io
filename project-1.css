@@ -1,0 +1,166 @@
+body {
+  transition: all 1s;
+}
+
+a {
+  list-style: none;
+}
+.header {
+  color: #fff;
+  background-color: #e74c3c;
+}
+.menu {
+  list-style: none;
+}
+.menu li {
+  display: inline-block;
+}
+.menu li a {
+  color: #fff;
+  padding: 15px 10px;
+  display: block;
+}
+.menu li a:hover {
+  background-color: rgb(122, 68, 55);
+  border-radius: 4px;
+}
+.logo {
+  font-size: 2rem;
+  margin-top: 6 px;
+}
+.banner {
+  background-image: url("img/img26.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+.title {
+  background: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  padding: 10px;
+  margin-top: 30px;
+}
+.lead {
+  color: white;
+  background-color: rgba(218, 81, 57, 0.7);
+  padding: 10px;
+}
+.section-box {
+  text-align: center;
+}
+.section-box i {
+  color: #e74c3c;
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+.section {
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.section-head {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-head::after {
+  background-color: #e74c3c;
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  margin: 20px auto;
+}
+.tastimonial {
+  background-image: url("img/img23.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit: cover; */
+  color: rgb(240, 240, 240);
+  padding: 50px 0;
+  position: relative;
+}
+.tastimonial::before {
+  background-color: rgba(102, 100, 100, 0.6);
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.tastimonial img {
+  width: 70px;
+  border-radius: 50%;
+}
+.tastimonial-box {
+  text-align: center;
+}
+.news-post img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.news-post h3 a {
+  color: #e74c3c;
+  font-size: 25px;
+}
+.date {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.date i {
+  margin-right: 6px;
+}
+.readmore {
+  color: #e74c3c;
+}
+.readmore i {
+  margin-left: 6px;
+}
+.footer {
+  background-color: rgb(57, 65, 83);
+  color: gray;
+  padding: 20px 0;
+}
+ul a {
+  color: gray;
+}
+ul a:hover {
+  color: gray;
+}
+.footer-width h4::after {
+  content: "";
+  background-color: rgb(179, 174, 174);
+  display: block;
+  width: 50px;
+  height: 2px;
+  margin: 5px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  margin-bottom: 3px;
+}
+ul i {
+  margin-right: 4px;
+}
+.dj {
+  background-color: rgb(45, 50, 63);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.icon {
+  color: #e74c3c;
+}
+.news {
+  text-align: center;
+}
+.part1 {
+  opacity: 0;
+}
+.part1 .animated {
+  opacity: 1;
+}
